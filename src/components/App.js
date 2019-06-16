@@ -23,7 +23,7 @@ class App extends Component {
 }
 
 const mapStateToProps = state => {
-  return { result: state.result };
+  return { result: state.genders.result };
 };
 
 export default connect(
